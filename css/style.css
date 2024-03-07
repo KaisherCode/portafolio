@@ -14,28 +14,55 @@ body {
     }
     h1{
         color: coral;
+        margin-bottom: 20px;
     }
 
     header{
         background-color: #050507;
         padding: 5px;
     }
+    nav{
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    nav p{
+        color: coral;
+        font-size:20px;
+        font-weight: bold;
+    }
     nav ul li{
         list-style: none;
+        margin-right: 20px;
+        font-size: 18px;
     }
     nav ul li a{
         text-decoration: none;
+        color: #DCE0EA;
+    }
+
+     /* Estilos para los elementos de lista */
+    li {
+        display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+        margin-right: 10px; /* Espaciado entre los elementos de lista */
     }
 
         /* Estilos para la sección de inicio */
     #inicio {
     padding: 50px;
+    text-align: center;
+    background-color: #1f2233;
     }
 
     #inicio img {
     width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
     height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
     border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
 
     #acerca-de{
@@ -87,4 +114,6 @@ body {
     footer{
         background-color: black;
         padding: 20px;
+        text-align: center;
+        font-size: 12px;
     }
