@@ -79,6 +79,8 @@ body {
     /* Estilos para la lista de habilidades */
     #habilidades ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
     }
 
     /* Estilos para la sección de proyectos */
@@ -90,6 +92,8 @@ body {
     /* Estilos para la lista de proyectos */
     #proyectos ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
     }
 
     /* Estilos para la sección de contacto */
